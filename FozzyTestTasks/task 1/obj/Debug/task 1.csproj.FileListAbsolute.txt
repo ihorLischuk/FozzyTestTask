@@ -1,0 +1,6 @@
+C:\Users\Ігор\source\repos\FozzyTestTasks\task 1\obj\Debug\task 1.csprojAssemblyReference.cache
+C:\Users\Ігор\source\repos\FozzyTestTasks\task 1\bin\Debug\task 1.exe.config
+C:\Users\Ігор\source\repos\FozzyTestTasks\task 1\bin\Debug\task 1.exe
+C:\Users\Ігор\source\repos\FozzyTestTasks\task 1\bin\Debug\task 1.pdb
+C:\Users\Ігор\source\repos\FozzyTestTasks\task 1\obj\Debug\task 1.exe
+C:\Users\Ігор\source\repos\FozzyTestTasks\task 1\obj\Debug\task 1.pdb

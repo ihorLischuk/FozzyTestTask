@@ -1,0 +1,47 @@
+В таблице находятся 8 чисел из диапазона от 1 до 10, в произвольном порядке. Каждое число
+встречается один раз.
+Необходимо написать запрос, который вернёт числа из диапазона [min, max] отсутствующие в
+таблице.
+Использовать спецфункции нельзя. Решение должно быть наиболее простым, понятным и
+универсальным.
+Проверить решение на таблице, в которой максимальное число в диапазоне 1 000 000.
+
+IF Object_id('tempdb..#test_table') IS NOT NULL
+	DROP TABLE #test_table
+
+	CREATE TABLE #test_table
+	(
+		id INT
+	)
+	
+GO
+
+INSERT INTO #test_table
+VALUES (1), (2), (8), (4), (9), (7), (3), (10)
+
+GO
+
+SELECT *
+FROM #test_table
+
+GO
+
+CREATE FUNCTION getNumbersRange (@min bigint, @max bigint) 
+RETURNS @RET TABLE (n bigint) 
+BEGIN
+	WHILE (@min <= @max)  
+	BEGIN
+	   INSERT INTO @RET VALUES(@min)
+	   SET @min = @min + 1
+	END
+	RETURN
+END
+
+GO
+
+SELECT n 
+FROM getNumbersRange(1, 10)
+WHERE n NOT IN (
+	SELECT *
+	FROM #test_table
+)

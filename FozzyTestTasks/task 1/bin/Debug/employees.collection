@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employee xsi:type="FixedPaymentEmployee">
+    <Id>1</Id>
+    <Name>Name 1</Name>
+    <LastName>Last name 1</LastName>
+    <SurName>Sur name 1</SurName>
+    <Salary>15000</Salary>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>2</Id>
+    <Name>Name 2</Name>
+    <LastName>Last name 2</LastName>
+    <SurName>Sur name 2</SurName>
+    <HourlyRate>85</HourlyRate>
+  </Employee>
+  <Employee xsi:type="FixedPaymentEmployee">
+    <Id>3</Id>
+    <Name>Name 3</Name>
+    <LastName>Last name 3</LastName>
+    <SurName>Sur name 3</SurName>
+    <Salary>16500</Salary>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>4</Id>
+    <Name>Name 4</Name>
+    <LastName>Last name 4</LastName>
+    <SurName>Sur name 4</SurName>
+    <HourlyRate>110</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>5</Id>
+    <Name>Name 5</Name>
+    <LastName>Last name 5</LastName>
+    <SurName>Sur name 5</SurName>
+    <HourlyRate>98</HourlyRate>
+  </Employee>
+  <Employee xsi:type="FixedPaymentEmployee">
+    <Id>6</Id>
+    <Name>Name 6</Name>
+    <LastName>Last name 6</LastName>
+    <SurName>Sur name 6</SurName>
+    <Salary>12000</Salary>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>7</Id>
+    <Name>Name 7</Name>
+    <LastName>Last name 7</LastName>
+    <SurName>Sur name 7</SurName>
+    <HourlyRate>112</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>8</Id>
+    <Name>Name 8</Name>
+    <LastName>Last name 8</LastName>
+    <SurName>Sur name 8</SurName>
+    <HourlyRate>68</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>9</Id>
+    <Name>Name 9</Name>
+    <LastName>Last name 9</LastName>
+    <SurName>Sur name 9</SurName>
+    <HourlyRate>70</HourlyRate>
+  </Employee>
+  <Employee xsi:type="FixedPaymentEmployee">
+    <Id>10</Id>
+    <Name>Name 10</Name>
+    <LastName>Last name 10</LastName>
+    <SurName>Sur name 10</SurName>
+    <Salary>12300</Salary>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>11</Id>
+    <Name>Name 11</Name>
+    <LastName>Last name 11</LastName>
+    <SurName>Sur name 11</SurName>
+    <HourlyRate>56</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>12</Id>
+    <Name>Name 12</Name>
+    <LastName>Last name 12</LastName>
+    <SurName>Sur name 12</SurName>
+    <HourlyRate>96</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>13</Id>
+    <Name>Name 13</Name>
+    <LastName>Last name 13</LastName>
+    <SurName>Sur name 13</SurName>
+    <HourlyRate>57</HourlyRate>
+  </Employee>
+  <Employee xsi:type="FixedPaymentEmployee">
+    <Id>14</Id>
+    <Name>Name 14</Name>
+    <LastName>Last name 14</LastName>
+    <SurName>Sur name 14</SurName>
+    <Salary>10000</Salary>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>15</Id>
+    <Name>Name 15</Name>
+    <LastName>Last name 15</LastName>
+    <SurName>Sur name 15</SurName>
+    <HourlyRate>86</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>16</Id>
+    <Name>Name 16</Name>
+    <LastName>Last name 16</LastName>
+    <SurName>Sur name 16</SurName>
+    <HourlyRate>72</HourlyRate>
+  </Employee>
+  <Employee xsi:type="FixedPaymentEmployee">
+    <Id>17</Id>
+    <Name>Name 17</Name>
+    <LastName>Last name 17</LastName>
+    <SurName>Sur name 17</SurName>
+    <Salary>19000</Salary>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>18</Id>
+    <Name>Name 18</Name>
+    <LastName>Last name 18</LastName>
+    <SurName>Sur name 18</SurName>
+    <HourlyRate>60</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>19</Id>
+    <Name>Name 19</Name>
+    <LastName>Last name 19</LastName>
+    <SurName>Sur name 19</SurName>
+    <HourlyRate>75</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>20</Id>
+    <Name>Name 20</Name>
+    <LastName>Last name 20</LastName>
+    <SurName>Sur name 20</SurName>
+    <HourlyRate>64</HourlyRate>
+  </Employee>
+  <Employee xsi:type="FixedPaymentEmployee">
+    <Id>21</Id>
+    <Name>Name 21</Name>
+    <LastName>Last name 21</LastName>
+    <SurName>Sur name 21</SurName>
+    <Salary>13700</Salary>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>22</Id>
+    <Name>Name 22</Name>
+    <LastName>Last name 22</LastName>
+    <SurName>Sur name 22</SurName>
+    <HourlyRate>82</HourlyRate>
+  </Employee>
+  <Employee xsi:type="FixedPaymentEmployee">
+    <Id>23</Id>
+    <Name>Name 23</Name>
+    <LastName>Last name 23</LastName>
+    <SurName>Sur name 23</SurName>
+    <Salary>26000</Salary>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>24</Id>
+    <Name>Name 24</Name>
+    <LastName>Last name 24</LastName>
+    <SurName>Sur name 24</SurName>
+    <HourlyRate>60</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>25</Id>
+    <Name>Name 25</Name>
+    <LastName>Last name 25</LastName>
+    <SurName>Sur name 25</SurName>
+    <HourlyRate>95</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>26</Id>
+    <Name>Name 26</Name>
+    <LastName>Last name 26</LastName>
+    <SurName>Sur name 26</SurName>
+    <HourlyRate>142</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>27</Id>
+    <Name>Name 27</Name>
+    <LastName>Last name 27</LastName>
+    <SurName>Sur name 27</SurName>
+    <HourlyRate>94</HourlyRate>
+  </Employee>
+  <Employee xsi:type="HourlyPaymentEmployee">
+    <Id>28</Id>
+    <Name>Name 28</Name>
+    <LastName>Last name 28</LastName>
+    <SurName>Sur name 28</SurName>
+    <HourlyRate>63</HourlyRate>
+  </Employee>
+</ArrayOfEmployee>

@@ -1,0 +1,24 @@
+Объяснить почему запись вставляется и реализовать скрипт таким образом что бы запись таки не
+вставилась из-за ошибки деления на 0.
+
+ця помилка не зупиняє виконання коду. Вона була спровокована після компіляції sql. 
+
+IF Object_id('tempdb..#test_tran') IS NOT NULL
+    DROP TABLE #test_tran
+    
+CREATE TABLE #test_tran (
+    id INT,
+    name NVARCHAR(255)
+)
+GO
+BEGIN TRAN
+	BEGIN TRY  
+		DECLARE @a FLOAT = 1 / 0.0
+		INSERT INTO #test_tran VALUES (1, N'Красный')
+	END TRY  
+	BEGIN CATCH  
+		THROW
+	END CATCH
+COMMIT TRAN
+GO
+SELECT * FROM #test_tran
